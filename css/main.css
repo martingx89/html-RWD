@@ -6,6 +6,61 @@
 
 body {
 	font-family: "Open Sans", sans-serif;
-	font-size: 48px;
-	background-color: #333;
+}
+
+nav {
+	height: 60px;
+	line-height: 60px;
+	/* display: flex;
+	flex-flow: column;
+	justify-content: center;
+	padding-bottom: 20px; */
+	background-color: #ddd;
+	text-align: center;
+}
+
+.wrapper {
+	margin: 0 auto;
+	width: 100%;
+	max-width: 1200px;
+}
+.nav-items {
+	display: none;
+}
+.burger-icon {
+	display: block;
+	margin-left: auto;
+	padding: 0 30px;
+	line-height: 60px;
+	font-size: 30px;
+	background: none;
+	border: none;
+	cursor: pointer;
+	transition: 0.3s;
+}
+
+.burger-icon:hover {
+	color: #09f;
+}
+
+@media (min-width: 768px) {
+	.burger-icon {
+		display: none;
+	}
+
+	.nav-items {
+		display: block;
+	}
+}
+.nav-items a {
+	padding: 0 30px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #333;
+	transition: 0.3s;
+}
+
+.nav-items a:hover {
+	color: #09f;
 }
