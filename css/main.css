@@ -185,6 +185,24 @@ nav {
 	}
 }
 
+/* contact */
+
+.contact {
+	text-align: center;
+}
+.contact h3 {
+	margin: 20px 0 5px;
+	text-transform: uppercase;
+}
+
+/* footer */
+
+footer {
+	padding: 30px 10px;
+	text-align: center;
+	background-color: #ddd;
+}
+
 @media (min-width: 1200px) {
 	.header {
 		position: relative;
